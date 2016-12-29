@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView android:id="@+id/text1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textStyle="bold"
+            android:text="IITD Complaints"
+            android:textSize="40dp"
+            android:paddingTop="100dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <TextView android:id="@+id/text2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text1"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="COP290 Design Practices"
+            android:textSize="30dp"
+            android:paddingTop="20dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <TextView android:id="@+id/text3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Dr. Vinay J. Ribeiro"
+            android:textSize="25dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"/>
+
+        <Button android:id="@+id/button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textSize="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/rounded_corner"
+            android:textColor="@color/textColorPrimary"
+            android:alpha="0.75"
+            android:text="LOGIN" />
+
+    </LinearLayout>
+</ScrollView>

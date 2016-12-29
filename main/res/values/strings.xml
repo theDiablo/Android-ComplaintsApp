@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">IITDComplaints</string>
+    <string name="action_settings">Settings</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="button_register">Log In</string>
+    <string name="empty_error_msg">Username cannot be empty</string>
+    <string name="server_host">http://192.168.137.1:8000</string>
+    <string name="title_activity_complaint_home">ComplaintHome</string>
+    <string name="invalidInput">Invalid Username or Password</string>
+
+    <string name="ComplaintLevel">Complaint Level</string>
+    <string name="title_activity_view_complaint">ViewComplaint</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="ConcernedUser">Concerned User</string>
+    <string name="Type">Type</string>
+    <string name="Hostel">Hostel</string>
+    <string name="Special">Special user (admin rights)</string>
+
+
+</resources>
